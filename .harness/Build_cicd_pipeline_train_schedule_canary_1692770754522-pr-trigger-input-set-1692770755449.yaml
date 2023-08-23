@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_cicd_pipeline_train_schedule_canary_1692770754522-pr-trigger-input-set
+  identifier: Build_cicd_pipeline_train_schedule_canary_1692770754522prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: first_demo
+  pipeline:
+    identifier: Build_cicd_pipeline_train_schedule_canary_1692770754522
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
